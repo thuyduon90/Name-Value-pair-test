@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    padding: 4px;
+    border: 1px solid #AAA;
+    margin: 3px;
+}
+
+.item.selected {
+    background-color: #666;
+    color: #EEE;
+}
+
+.item:hover {
+    background-color: rgb(83, 182, 177);
+    transition: all 0.3s;
+}
+
+.group.group2 {
+    display: flex;
+}
+
+.group1 input[type="text"] {
+    padding: 5px;
+}
+
+.wrapper {
+    margin: 20px auto;
+}
+
+.group1 input[type="submit"] {
+    margin-left: 26px;
+    padding: 5px;
+}
+
+.control {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.control button {
+    display: block;
+    padding: 5px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+button.sort {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.group1 input[type="text"] {
+    width: 300px;
+}
+
+label {
+    color: #999;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #999;
+    display: inline-block;
+}
+
+.content {
+    margin: 50px auto;
+    border: 2px solid #666666;
+    border-radius: 9px;
+    padding: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+@media (max-width: 530px) {
+    .group.group2 {
+        display: block;
+    }
+    .control {
+        display: inline-block;
+        margin-left: 0;
+    }
+    .control button {
+        display: inline-block;
+    }
+    .group1 input[type="text"] {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .group1 input[type="submit"] {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    .content {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 940px;
+    }
+    .content {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1180px;
+    }
+    .content {
+        width: 50%;
+    }
+}
